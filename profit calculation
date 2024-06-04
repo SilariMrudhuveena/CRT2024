@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,a,b;
+    scanf("%d %d %d",&x,&a,&b);
+    int r1=x*a;
+    int r2=x*b;
+    printf("%d",((r1-r2)-100));
+   
+    return 0;
+}
