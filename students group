@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+  int p;
+    scanf("%d",&p);
+    int r=p/4;
+    int x=p%4;
+    int y=x+r;
+        if(p<100||p>200)
+        {
+            printf("INVALID INPUT");
+        }
+    else {
+        
+        printf("%d\n%d\n%d\n%d\n",r,r,r,y);
+    }
+
+
+    return 0;
+}
