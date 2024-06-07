@@ -1,0 +1,16 @@
+int main()
+{
+    int d,y,m,s,i;
+    scanf("%d%d%d%d",&d,&y,&m,&s);
+    i=y+m+d;
+    if(i/3 && i/4)
+    {
+        printf("Cinema Day");
+        }
+    else
+    {
+        printf("Not a Cinema Day");  
+        }
+
+    return 0;
+}
