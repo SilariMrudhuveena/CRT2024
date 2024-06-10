@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	scanf("%d",&n);
+	i=5;
+	if(n%i==0)
+	{
+		printf("%d",i);
+	}
+}
