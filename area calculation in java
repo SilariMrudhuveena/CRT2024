@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int s,l,b;
+        float r;
+    Scanner sc=new Scanner(System.in);
+     s=sc.nextInt();
+     l=sc.nextInt();
+     b=sc.nextInt();
+     r=sc.nextFloat();
+  int  s1=s*s;
+   int s2=l*b;
+  float s3=(float)(3.14*r*r); 
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.printf("%.2f",s3);
+    }
+}
