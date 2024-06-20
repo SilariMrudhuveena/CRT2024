@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+public class Solution 
+{
+
+    public static void main(String[] args)
+    {
+    Scanner sc=new Scanner(System.in);
+     int n=sc.nextInt();
+     int t=sc.nextInt();
+     int p=n/t;
+     int q=n%t;
+     System.out.print("The number of students in each team is "+p+" and left out is "+q+"");
+    }
+}
